@@ -11,5 +11,5 @@ const stub = new NestedProxy();
 
 console.log(stub.a.b.c); // Proxy object
 console.log(stub.a.b.c()); // {};
-console.log(stub['a'].b.['c'].d()); // {}
+console.log(stub['a'].b['c'].d()); // {}
 ```
