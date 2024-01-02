@@ -1,13 +1,13 @@
 {
   "name": "nested-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
     "build": "tsc"
   },
   "repository": {
@@ -20,7 +20,9 @@
     "nested proxy"
   ],
   "license": "MIT",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "bugs": {
     "url": "https://github.com/Bitluck/nested-proxy/issues"
   },
